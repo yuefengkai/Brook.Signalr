@@ -1,2 +1,2 @@
-# Brook.Signalr-
+# Brook.Signalr
 Brook.Signalr 
