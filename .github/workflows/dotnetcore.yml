@@ -15,7 +15,7 @@ jobs:
         dotnet-version: 3.0.100
     - name: dotnet info # 输出 dotnet -info，查看 dotnet 版本信息
       run: dotnet --info
-    - name: 查看文件
-      run: ls
     - name: Build with dotnet
-      run: dotnet build --configuration Release
+      run: |
+        ls
+        dotnet build --configuration Release
