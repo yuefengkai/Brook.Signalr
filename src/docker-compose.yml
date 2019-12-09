@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  brook.signalr.api:
+    image: ${DOCKER_REGISTRY-}brooksignalr
+    build:
+      context: .
+      dockerfile: Brook.Signalr.Api/Dockerfile
