@@ -19,4 +19,6 @@ jobs:
       run: |
         ls
         cd src
-        dotnet build --configuration Release
+        ls
+        pwd
+        dotnet build Brook.Signalr.sln --configuration Release
