@@ -1,4 +1,4 @@
-name: .NET Core Build Brook SignalR # workflow name
+name: dotnetcore # workflow name
 
 on: [push] # event trigger，什么事件触发 build
 
