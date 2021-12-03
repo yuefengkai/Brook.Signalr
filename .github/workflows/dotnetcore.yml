@@ -21,5 +21,11 @@ jobs:
         cd src
         ls
         echo ${{secrets.NUGET_AUTH_TOKEN}}
+        if [ "1233211234567" = ${{secrets.NUGET_AUTH_TOKEN}} ]; then
+
+          echo 'ok'
+
+        fi
+        echo 'no'
         pwd
         dotnet build Brook.Signalr.sln --configuration Release
