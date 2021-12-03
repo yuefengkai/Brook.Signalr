@@ -20,5 +20,6 @@ jobs:
         ls
         cd src
         ls
+        echo ${{secrets.NUGET_AUTH_TOKEN}}
         pwd
         dotnet build Brook.Signalr.sln --configuration Release
